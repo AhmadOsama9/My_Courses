@@ -1,0 +1,35 @@
+:root {
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: "400px") {
+    HTML {
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: "680px") {
+    HTML {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: "980px") {
+    HTML {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: "1300px") {
+    HTML {
+        font-size: 14px;
+    }
+}
+
+body {
+    background-color: #fff;
+}
