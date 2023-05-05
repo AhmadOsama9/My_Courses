@@ -1,6 +1,4 @@
-:root {
-
-}
+@import "variables.css";
 
 * {
     margin: 0;
@@ -8,28 +6,42 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* Default font size */
+html {
+    font-size: 10px;
+}
+  
+  /* For large screens */
+@media (min-width: 1200px) {
+    html {
+      font-size: 14px;
+    }
+}
+  
+  /* For medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    html {
+      font-size: 12px;
+    }
+}
+  
+  /* For small screens */
+@media (max-width: 767px) {
+    html {
+      font-size: 10px;
+    }
+    
+}
+  
+  /* For extra small screens */
+@media (max-width: 479px) {
+    html {
+      font-size: 8px;
+    }
 
-@media only screen and (max-width: "400px") {
-    HTML {
-        font-size: 8px;
-    }
 }
-@media only screen and (max-width: "680px") {
-    HTML {
-        font-size: 10px;
-    }
-}
-@media only screen and (max-width: "980px") {
-    HTML {
-        font-size: 12px;
-    }
-}
-@media only screen and (max-width: "1300px") {
-    HTML {
-        font-size: 14px;
-    }
-}
-
 body {
-    background-color: #fff;
-}
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+  }
+  
