@@ -37,7 +37,7 @@ const Cart = () => {
           <button>Check Out</button>
         </div>
         :
-        <h1>Empty Cart, Your missing your life opportunity</h1>
+        <h1>Empty Cart, You are missing your life opportunity</h1>
       }
     </div>
   )
